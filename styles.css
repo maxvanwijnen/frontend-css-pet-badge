@@ -1,0 +1,31 @@
+:root {
+    --text-color:#ad6c62;
+    --badge-color:#e9d8c6;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+article {
+    display: inline-block;
+    background-color: var(--badge-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    text-align:center;
+    padding:32px;
+    box-shadow: -1px 1px 26px -3px rgba(184,184,184,1);
+}
+
+article img {
+    width:80%;
+    margin:0 auto;
+    border:8px solid var(--text-color);
+    border-radius: 200px;
+    width:300px;
+
+
+}
+
+article h2 {
+    margin-bottom: 0px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: 700;
+
+}
